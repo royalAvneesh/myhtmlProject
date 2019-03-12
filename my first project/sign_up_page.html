@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up Page</title>
+	<link rel="stylesheet" type="text/css" href="sign_up_page_style.css">
+	<script src="./sign_up_page_check.js"></script>
+</head>
+<body><div class="sblock">
+<form method="post" action="Main_page.html" onsubmit="return validation()" >
+			<div class="title"><p class="tn">Create An Account</p></div>
+		<input type="text " name="uid" placeholder="user_id" class="uid1" required="" spellcheck="false">	
+	<input type="text" name="fname" placeholder="Enter First Name" required="Enter this field" class="fname" spellcheck="false">
+	<input type="text" name="lname" placeholder="Enter Last Name" required="Enter this field" class="lname" spellcheck="false">
+	<div class="gen1"><input type="radio" name="gender" value="male" class="gen">Male
+	<input type="radio" name="gender" value="female" class="gen">Female
+	<input type="radio" name="gender" value="other" class="gen">Other</div>
+	<input type="date" name="birthday" placeholder="Birthdate" class="date" required="">
+	<input type="text" name="mail" placeholder="example@email.com" required="Enter this field" class="uid" spellcheck="false">
+	<div class="checking">
+	<input type="password" name="pssword" placeholder="Password" required="" class="uid" spellcheck="false" id="pass">
+	<input type="password" name="cnfpssword" placeholder="Confirm Password" required="" class="uid" spellcheck="false" id="cnf">
+	</div><div>
+	<button type="submit" value="Submit" class="sbmit">Submit</button>
+	<button type="reset" value="Reset" class="rset">Reset</button></div></form></div>
+</body>
+</html>

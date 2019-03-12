@@ -1,0 +1,141 @@
+body{
+	background-color: skyblue;
+}
+.sblock{
+	position: absolute;
+	top:50px;
+	left: 60%;
+}
+form{
+	background-color: lightgreen;
+	width:500px;
+	text-align: center;
+	height: 400px;
+	position: absolute;
+	top:30%;
+	left: 30%;
+	border: 2px solid gray;
+}
+.title
+{
+	margin-top: 0px;
+	position: absolute;
+	top:-13px;
+	left :10px;
+	background-color: blue;
+	height: 25px;
+	width: 160px;
+}
+.tn{
+	margin-top: 2px;
+}
+.uid1{
+	outline: none;
+	position: relative;
+	margin-top: 20px;
+	margin-left: -28px;
+	height: 30px;
+	width: 90%;
+	border-radius: 100px;
+	text-align: center;
+	box-shadow: 2px 3px green;
+	font-size: 15px;
+	font-weight: bold;	 
+}
+.uid{
+	top:20px;
+	outline: none;
+	position: relative;
+	margin-top: 20px;
+	margin-left: -28px;
+	height: 30px;
+	width: 90%;
+	border-radius: 100px;
+	text-align: center;
+	box-shadow: 2px 3px green;
+	font-size: 15px;
+	font-weight: bold;	 
+}
+.uid[name=mail]{
+	margin-top:0;
+ ::placeholder
+}
+{
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.fname{
+	outline: none;
+	position: relative;
+	top: 10px;
+	left: -18px;
+	height: 30px;
+	width: 45%;
+	border-radius: 18px;
+	box-shadow: 2px 3px green; 
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+}
+.lname{
+	position: relative;
+	top: 10px;
+	left: -9px;
+	outline: none;
+	height: 30px;
+	width: 42%;
+	border-radius: 18px;
+	box-shadow: 2px 3px green;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold; 
+}
+.sbmit{
+	outline: none;
+	position: relative;
+	width: 100px;
+	background-color: darkgreen;
+	height: 35px;
+	left: -100px;
+	top: 35px;
+	border-radius: 18px;
+}
+
+.rset{
+	outline: none;
+	position: relative;
+	width: 100px;
+	background-color: darkgreen;
+	height: 35px;
+	left: 100px;
+	top: 35px;
+	border-radius: 18px;
+}
+.gen{
+	position: relative;
+	margin-top: 10px;
+}
+.gen1{
+	position: relative;
+	top:23px;
+	left:10px;
+	width: 225px;
+	height: 30px;
+	background-color: white;
+	border-radius: 18px;
+	border: 2px solid gray;
+	box-shadow: 2px 3px green;
+}
+.date{
+	outline: none;
+	position: relative;
+	left: 108px;
+	top: -10px;
+	border-radius: 18px;
+	height: 30px;
+	width: 212px;
+	margin-bottom: -15px;
+	box-shadow: 2px 3px green;
+}
